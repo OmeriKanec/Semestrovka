@@ -30,9 +30,6 @@ public class PatienceSort {
             count++;
         }
         List<Integer> ans = sobratStopki(stopki);
-        //for (int i = 0; i < ans.size(); i++) {
-        // System.out.print(ans.get(i) + " ");
-        // }
         return ans;
     }
 
@@ -76,11 +73,11 @@ public class PatienceSort {
             patienceSort(arr);
             long finish = System.nanoTime();
             long time = finish - start;
-            System.out.println(time);
-            //System.out.print(" ");
-            //System.out.println(count);
-            //System.out.print(" ");
-            //System.out.println(scan.length);
+            System.out.print(time);
+            System.out.print(" ");
+            System.out.println(count);
+            System.out.print(" ");
+            System.out.println(scan.length);
         }
     }
 }
